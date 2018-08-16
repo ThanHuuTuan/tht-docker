@@ -30,13 +30,17 @@ Một Compose file có thể có phần mở rộng của file là `.yml` hoặc
     - Sử dụng để thêm hoặc loại bỏ khả năng của container. Ta có thể xem danh sách các khả năng của container qua [`man 7 capabilities`](https://linux.die.net/man/7/capabilities)
 
     - Ví dụ khai báo có thể là:
+    ```sh
+    cap_add:
+         - ALL
 
-            cap_add:
-              - ALL
+    cap_drop:
+        - NET_ADMIN
+        - SYS_ADMIN
+```
+    
 
-            cap_drop:
-              - NET_ADMIN
-              - SYS_ADMIN
+           
 
 ### <a name="8"> stdin_open, tty</a>
 - Để có thể debug thì bạn cần 2 dòng:
