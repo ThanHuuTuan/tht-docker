@@ -12,4 +12,12 @@ $ pip install pyinstaller
 ```sh
 $ cd folder
 ```
-# 3. Chuyển file script.py s
+# 3. Chuyển file script.py sang exe
+
+- Run 
+```sh
+$ pyinstaller script.py
+```
+file script.exe sẽ xuất hiện trong thư mục dist 
+
+
