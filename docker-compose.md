@@ -25,11 +25,20 @@ Một Compose file có thể có phần mở rộng của file là `.yml` hoặc
     - `build` có thể được khai báo cùng với string là một đường dẫn tới ngữ cảnh build.
      Kết quả là một image có tên là `kali` được đánh tag là `tag` sẽ được build ra từ đường dẫn `.`
   
-version: '3'
-services:
-  kali:
-    build: .
-    cap_add:
-      - NET_ADMIN
+### <a name="8">cap_add, cap_drop</a>
+
+    - Sử dụng để thêm hoặc loại bỏ khả năng của container. Ta có thể xem danh sách các khả năng của container qua [`man 7 capabilities`](https://linux.die.net/man/7/capabilities)
+
+    - Ví dụ khai báo có thể là:
+
+            cap_add:
+              - ALL
+
+            cap_drop:
+              - NET_ADMIN
+              - SYS_ADMIN
+
+### <a name="8"> stdin_open, tty</a>
+- Để có thể debug thì bạn cần 2 line:
     stdin_open: true
     tty: true
