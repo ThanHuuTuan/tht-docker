@@ -1,9 +1,9 @@
 # Nghiên cứu các lệnh cơ bản
 
-. Pull một image từ Docker Hub
+## Pull một image từ Docker Hub
 > docker pull {image_name}
-. Liệt kê các images hiện có
-docker images
+## Liệt kê các images hiện có
+> docker images
 Xóa một image
 docker rmi {image_id/name}
 Liệt kê các container đang chạy
