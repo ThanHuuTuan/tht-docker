@@ -51,3 +51,19 @@ Một Compose file có thể có phần mở rộng của file là `.yml` hoặc
 
 ```
     
+ # NỘi dung docker compose file.
+ 
+ ```sh
+version: '3'
+services:
+  kali:
+    build: .
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+    
+
+```
+ 
+ 
