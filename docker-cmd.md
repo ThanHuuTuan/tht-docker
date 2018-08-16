@@ -1,4 +1,5 @@
-# Câu lệnh c
+# Nghiên cứu các lệnh cơ bản
+
 Pull một image từ Docker Hub
 docker pull {image_name}
 Liệt kê các images hiện có
