@@ -7,5 +7,8 @@
 $ pip install pyinstaller
 ```
 
-
-
+# 2. Chuyển tới thư mục chứa file script.py
+- Install cd
+```sh
+$ cd t
+```
