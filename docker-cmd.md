@@ -16,7 +16,7 @@
 > docker rename {old_container_name} {new_container_name}
 ## Khởi động một container
 > docker start {new_container_name}
-hoặc
+---
 > docker exec -it {new_container_name} /bin/bash
 ## Tạo mới một container, đồng thời khởi động với tùy chọn cổng và volume
 > docker run --name {container_name} -p {host_port}:{container_port} -v {/host_path}:{/container_path} -it {image_name} /bin/bash
