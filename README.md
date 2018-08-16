@@ -4,7 +4,7 @@
 
 [Build 1 project ra file exe](build-exe.md)
 
-[CChạy chương trình với environment](ghichep-lenh-docker.md)
+[Chạy chương trình với environment](ghichep-lenh-docker.md)
 
 [Chạy service python trong linux](ghichep-docker-images.md)
 
@@ -12,4 +12,5 @@
 
 [Viết docker compose](dockerfile.md)
 
-[Các c(dockerfile.md)
+
+[C](dockerfile.md)
