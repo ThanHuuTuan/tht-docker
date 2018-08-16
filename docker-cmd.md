@@ -1,7 +1,7 @@
 # Nghiên cứu các lệnh cơ bản
 
-Pull một image từ Docker Hub
-docker pull {image_name}
+. Pull một image từ Docker Hub
+> docker pull {image_name}
 Liệt kê các images hiện có
 docker images
 Xóa một image
