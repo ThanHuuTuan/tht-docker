@@ -36,8 +36,7 @@ CMD ["/bin/bash"]
 - Mỗi Dockerfile chỉ có một câu lệnh CMD, nếu như có nhiều hơn một câu lệnh CMD thì chỉ có câu lệnh CMD cuối cùng được sử dụng.
 
 # 2. Dockerfile nội dung
-## 1.1 FROM
-- Dùng để chỉ ra image được build từ đâu (từ image gốc nào)
+
 ```sh
 FROM kalilinux/kali-linux-docker:latest
 
