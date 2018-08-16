@@ -8,6 +8,7 @@
 > docker rmi {image_id/name}
 ## Liệt kê các container đang chạy
 > docker ps
+---
 > docker ps -a #Liệt kê các container đã tắt
 ## Xóa một container
 > docker rm -f {container_id/name}
