@@ -1,6 +1,11 @@
 ## Build File python sang .exe
 
-> import thư viện pyinstaller
+
+# 1. Cài đặt thư viện pyinstaller
+- Install using pip
+```sh
+$ pip install pyinstaller
+```
 
 
 
