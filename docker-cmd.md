@@ -2,7 +2,7 @@
 
 . Pull một image từ Docker Hub
 > docker pull {image_name}
-Liệt kê các images hiện có
+. Liệt kê các images hiện có
 docker images
 Xóa một image
 docker rmi {image_id/name}
