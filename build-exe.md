@@ -10,5 +10,6 @@ $ pip install pyinstaller
 # 2. Chuyển tới thư mục chứa file script.py
 - Install cd
 ```sh
-$ cd n
+$ cd folder
 ```
+# 3. Chuyển file script.py s
