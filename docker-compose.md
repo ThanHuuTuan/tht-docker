@@ -19,3 +19,17 @@ Một Compose file có thể có phần mở rộng của file là `.yml` hoặc
         
  
 # Compose file
+### <a name="1">build</a>
+
+    - Khai báo cho tùy chọn này được áp dụng vào trong quá trình build (build time).
+    - `build` có thể được khai báo cùng với string là một đường dẫn tới ngữ cảnh build.
+     Kết quả là một image có tên là `kali` được đánh tag là `tag` sẽ được build ra từ đường dẫn `.`
+  
+version: '3'
+services:
+  kali:
+    build: .
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
