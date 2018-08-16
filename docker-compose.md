@@ -39,6 +39,10 @@ Một Compose file có thể có phần mở rộng của file là `.yml` hoặc
               - SYS_ADMIN
 
 ### <a name="8"> stdin_open, tty</a>
-- Để có thể debug thì bạn cần 2 line:
+- Để có thể debug thì bạn cần 2 dòng:
+```sh
     stdin_open: true
     tty: true
+
+```
+    
