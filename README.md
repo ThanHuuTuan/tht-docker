@@ -2,14 +2,13 @@
 
 ### Lý thuyết 
 
-[Build 1 project ra file exe](build-exe.md)
+1.[Build 1 project ra file exe](build-exe.md)
 
-[Chạy chương trình với environment](environment-r.md)
+2. [Chạy chương trình với environment](environment-r.md)
 
-[Chạy service python trong linux](python-service.md)
+3. [Chạy service python trong linux](python-service.md)
 
-[Viết docker file](dockerfile.md)
+4.1. [Viết docker file](dockerfile.md)
+4.2. [Viết docker compose](docker-compose.md)
 
-[Viết docker compose](docker-compose.md)
-
-[Các lệnh cơ bản Docker](docker-cmd.md)
+4.3. [Các lệnh cơ bản Docker](docker-cmd.md)
