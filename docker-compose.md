@@ -1,4 +1,4 @@
-
+# Cách viết Docker Compose file.
  <a name="content">Nội dung</a>
 
 - Nội dung của bài viết nói về cách tạo nên Docker Compose file để sử dụng khi có nhu cầu tạo ra nhiều Docker Container Applications.
@@ -16,3 +16,6 @@ Một Compose file có thể có phần mở rộng của file là `.yml` hoặc
 + Cấu trúc của `compose-file.yml` tuân thủ theo định dạng sau:
 
         <key>: <option>: <value>
+        
+ 
+# Compose file
