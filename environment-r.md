@@ -2,6 +2,7 @@
 # Python 2
 </br>
 ## Bước 1:
+
 ```sh
 pip install virtualenv
 ```
@@ -12,7 +13,7 @@ Với virtualenv được cài đặt, ta cd vào thư mục và sau đó tạo 
 ```sh
 virtualenv [name_of_your_project]
 ```
-</br>
+
 # Python 3
 </br>
 ## Bước 1:
@@ -20,12 +21,14 @@ virtualenv [name_of_your_project]
 sudo apt-get install python3-venv
 ```
 <br/>
+
 ## Bước 2:
+
 ```sh
 cd project_name
 
 ```
-
+---
 ```sh
 python -m venv [name_of_your_project]
 ```
