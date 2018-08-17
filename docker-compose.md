@@ -1,9 +1,6 @@
 # Cách viết Docker Compose file.
  <a name="content">Nội dung</a>
 
-- Nội dung của bài viết nói về cách tạo nên Docker Compose file để sử dụng khi có nhu cầu tạo ra nhiều Docker Container Applications.
-
-- Nội dung sẽ chỉ nói về cú pháp của Docker Compose file với phiên bản 3 (version 3). Nội dung dưới đây sẽ mô tả qua về cấu trúc của Compose file.
 
 + Một Compose file được sử dụng theo cú pháp của [YAML](http://yaml.org/) để định nghĩa ra các services, networks và volumes. Mặc định đường dẫn để quy định sử dụng cho Compose file là `./docker-compose.yml`.
 
