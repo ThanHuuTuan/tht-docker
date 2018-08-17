@@ -15,12 +15,13 @@ virtualenv [name_of_your_project]
 ```
 
 # Python 3
-</br>
+
 ## Bước 1:
+
 ```sh
 sudo apt-get install python3-venv
 ```
-<br/>
+
 
 ## Bước 2:
 
