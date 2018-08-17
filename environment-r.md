@@ -5,19 +5,21 @@
 ```sh
 pip install virtualenv
 ```
+</br>
 ## Bước 2:
 Với virtualenv được cài đặt, ta cd vào thư mục và sau đó tạo một môi trường mới:
 
 ```sh
 virtualenv [name_of_your_project]
 ```
-
+</br>
 # Python 3
 </br>
 ## Bước 1:
 ```sh
 sudo apt-get install python3-venv
 ```
+<br/>
 ## Bước 2:
 ```sh
 cd project_name
