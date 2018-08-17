@@ -1,12 +1,12 @@
 
 # Python 2
-</br>
+
 ## Bước 1:
 
 ```sh
 pip install virtualenv
 ```
-</br>
+
 ## Bước 2:
 Với virtualenv được cài đặt, ta cd vào thư mục và sau đó tạo một môi trường mới:
 
