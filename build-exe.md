@@ -1,5 +1,5 @@
 ## Build File python sang .exe
-
+## Thân Hữu Tuấn - AT12B
 
 # 1. Cài đặt thư viện pyinstaller
 - Install using pip
